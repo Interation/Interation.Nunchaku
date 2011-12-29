@@ -1,0 +1,123 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependence", "Dependence", "{4DC9CA37-BDD8-4A3C-BA15-B36E1FE6195B}"
+	ProjectSection(SolutionItems) = preProject
+		Dependence\ICSharpCode.SharpZipLib.dll = Dependence\ICSharpCode.SharpZipLib.dll
+		Dependence\log4net.dll = Dependence\log4net.dll
+		Dependence\Lucene.Net.dll = Dependence\Lucene.Net.dll
+		Dependence\Memcached.ClientLibrary.dll = Dependence\Memcached.ClientLibrary.dll
+		Dependence\Ninject.dll = Dependence\Ninject.dll
+		Dependence\nunit.framework.dll = Dependence\nunit.framework.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{66DA0BD2-FCCC-4B5D-8F94-93858737033A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{12C02D14-4F9A-451F-89B8-FF31EBD2EC52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{D3C5F405-FBC6-4911-86C3-ACF86124A82D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{899D3EC4-FDD1-47A5-B589-CF9686830CD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IOC", "IOC", "{79F1E3B5-FA5E-4C56-AD0B-95FE57B039BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Official", "Official", "{D20EC02A-B481-4DC7-A6F0-852E4D5C9A65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.UI.Official.Web", "UI\Official\Interation.Nunchaku.UI.Official.Web\Interation.Nunchaku.UI.Official.Web.csproj", "{13C3DFCC-D3B9-4D68-B256-B1E12E50ACB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.UI.Official.Controllers", "UI\Official\Interation.Nunchaku.UI.Official.Controllers\Interation.Nunchaku.UI.Official.Controllers.csproj", "{D1DDDA46-194B-4E41-A4C4-03AC2C691C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.UI.Official.ViewModel", "UI\Official\Interation.Nunchaku.UI.Official.ViewModel\Interation.Nunchaku.UI.Official.ViewModel.csproj", "{4CE272CE-937E-42EC-954D-253A30598BAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.Foundation", "Foundation\Interation.Nunchaku.Foundation\Interation.Nunchaku.Foundation.csproj", "{FC8E1BCC-43C8-4BDF-B036-2D1A277211B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.Foundation.Web", "Foundation\Interation.Nunchaku.Foundation.Web\Interation.Nunchaku.Foundation.Web.csproj", "{FED73B23-8B41-43EE-84CD-00D3CCB4676D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.IOC", "IOC\Interation.Nunchaku.IOC\Interation.Nunchaku.IOC.csproj", "{17FAAB04-3C90-44EF-AD1B-F85108B4DAC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.Repository.Entity", "Repository\Interation.Nunchaku.Repository.Entity\Interation.Nunchaku.Repository.Entity.csproj", "{316244A4-63D9-4A08-863A-D868FF494519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.Repository.IRepositoryProvider", "Repository\Interation.Nunchaku.Repository.IRepositoryProvider\Interation.Nunchaku.Repository.IRepositoryProvider.csproj", "{038E4EA1-B036-497D-912D-926835A79B1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.Repository.RepositoryImplementation", "Repository\Interation.Nunchaku.Repository.RepositoryImplementation\Interation.Nunchaku.Repository.RepositoryImplementation.csproj", "{703FD96D-EB66-4C22-BA8D-71009649451C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.Service.Contract", "Service\Interation.Nunchaku.Service.Contract\Interation.Nunchaku.Service.Contract.csproj", "{1902E62E-3B9E-4CB6-94A5-9F48304B8607}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.Service.IServiceProvider", "Service\Interation.Nunchaku.Service.IServiceProvider\Interation.Nunchaku.Service.IServiceProvider.csproj", "{740500A4-FEA9-42DA-B9D8-47CB155CA602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interation.Nunchaku.Service.ServiceImplementation", "Service\Interation.Nunchaku.Service.ServiceImplementation\Interation.Nunchaku.Service.ServiceImplementation.csproj", "{61EBFD46-08AA-4934-8D6D-BFE54674D261}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13C3DFCC-D3B9-4D68-B256-B1E12E50ACB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C3DFCC-D3B9-4D68-B256-B1E12E50ACB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C3DFCC-D3B9-4D68-B256-B1E12E50ACB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C3DFCC-D3B9-4D68-B256-B1E12E50ACB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1DDDA46-194B-4E41-A4C4-03AC2C691C05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1DDDA46-194B-4E41-A4C4-03AC2C691C05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1DDDA46-194B-4E41-A4C4-03AC2C691C05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1DDDA46-194B-4E41-A4C4-03AC2C691C05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE272CE-937E-42EC-954D-253A30598BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE272CE-937E-42EC-954D-253A30598BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE272CE-937E-42EC-954D-253A30598BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE272CE-937E-42EC-954D-253A30598BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8E1BCC-43C8-4BDF-B036-2D1A277211B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8E1BCC-43C8-4BDF-B036-2D1A277211B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8E1BCC-43C8-4BDF-B036-2D1A277211B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8E1BCC-43C8-4BDF-B036-2D1A277211B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FED73B23-8B41-43EE-84CD-00D3CCB4676D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FED73B23-8B41-43EE-84CD-00D3CCB4676D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FED73B23-8B41-43EE-84CD-00D3CCB4676D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FED73B23-8B41-43EE-84CD-00D3CCB4676D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17FAAB04-3C90-44EF-AD1B-F85108B4DAC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17FAAB04-3C90-44EF-AD1B-F85108B4DAC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17FAAB04-3C90-44EF-AD1B-F85108B4DAC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17FAAB04-3C90-44EF-AD1B-F85108B4DAC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{316244A4-63D9-4A08-863A-D868FF494519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316244A4-63D9-4A08-863A-D868FF494519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316244A4-63D9-4A08-863A-D868FF494519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316244A4-63D9-4A08-863A-D868FF494519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{038E4EA1-B036-497D-912D-926835A79B1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{038E4EA1-B036-497D-912D-926835A79B1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{038E4EA1-B036-497D-912D-926835A79B1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{038E4EA1-B036-497D-912D-926835A79B1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{703FD96D-EB66-4C22-BA8D-71009649451C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{703FD96D-EB66-4C22-BA8D-71009649451C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{703FD96D-EB66-4C22-BA8D-71009649451C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{703FD96D-EB66-4C22-BA8D-71009649451C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1902E62E-3B9E-4CB6-94A5-9F48304B8607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1902E62E-3B9E-4CB6-94A5-9F48304B8607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1902E62E-3B9E-4CB6-94A5-9F48304B8607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1902E62E-3B9E-4CB6-94A5-9F48304B8607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{740500A4-FEA9-42DA-B9D8-47CB155CA602}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{740500A4-FEA9-42DA-B9D8-47CB155CA602}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{740500A4-FEA9-42DA-B9D8-47CB155CA602}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{740500A4-FEA9-42DA-B9D8-47CB155CA602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61EBFD46-08AA-4934-8D6D-BFE54674D261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61EBFD46-08AA-4934-8D6D-BFE54674D261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61EBFD46-08AA-4934-8D6D-BFE54674D261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61EBFD46-08AA-4934-8D6D-BFE54674D261}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC8E1BCC-43C8-4BDF-B036-2D1A277211B3} = {66DA0BD2-FCCC-4B5D-8F94-93858737033A}
+		{FED73B23-8B41-43EE-84CD-00D3CCB4676D} = {66DA0BD2-FCCC-4B5D-8F94-93858737033A}
+		{316244A4-63D9-4A08-863A-D868FF494519} = {12C02D14-4F9A-451F-89B8-FF31EBD2EC52}
+		{038E4EA1-B036-497D-912D-926835A79B1B} = {12C02D14-4F9A-451F-89B8-FF31EBD2EC52}
+		{703FD96D-EB66-4C22-BA8D-71009649451C} = {12C02D14-4F9A-451F-89B8-FF31EBD2EC52}
+		{1902E62E-3B9E-4CB6-94A5-9F48304B8607} = {D3C5F405-FBC6-4911-86C3-ACF86124A82D}
+		{740500A4-FEA9-42DA-B9D8-47CB155CA602} = {D3C5F405-FBC6-4911-86C3-ACF86124A82D}
+		{61EBFD46-08AA-4934-8D6D-BFE54674D261} = {D3C5F405-FBC6-4911-86C3-ACF86124A82D}
+		{D20EC02A-B481-4DC7-A6F0-852E4D5C9A65} = {899D3EC4-FDD1-47A5-B589-CF9686830CD9}
+		{17FAAB04-3C90-44EF-AD1B-F85108B4DAC2} = {79F1E3B5-FA5E-4C56-AD0B-95FE57B039BD}
+		{13C3DFCC-D3B9-4D68-B256-B1E12E50ACB0} = {D20EC02A-B481-4DC7-A6F0-852E4D5C9A65}
+		{D1DDDA46-194B-4E41-A4C4-03AC2C691C05} = {D20EC02A-B481-4DC7-A6F0-852E4D5C9A65}
+		{4CE272CE-937E-42EC-954D-253A30598BAC} = {D20EC02A-B481-4DC7-A6F0-852E4D5C9A65}
+	EndGlobalSection
+EndGlobal

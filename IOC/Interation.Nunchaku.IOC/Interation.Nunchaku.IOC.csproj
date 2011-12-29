@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{17FAAB04-3C90-44EF-AD1B-F85108B4DAC2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Interation.Nunchaku.IOC</RootNamespace>
+    <AssemblyName>Interation.Nunchaku.IOC</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ninject">
+      <HintPath>..\..\Dependence\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BindingModule\OtherBindingModule.cs" />
+    <Compile Include="BindingModule\RepositoryBindingModule.cs" />
+    <Compile Include="BindingModule\ServiceBindingModule.cs" />
+    <Compile Include="InjectionActionInvoker.cs" />
+    <Compile Include="InjectionControllerFactory.cs" />
+    <Compile Include="InjectionHttpApplication.cs" />
+    <Compile Include="InjectionRepository.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Foundation\Interation.Nunchaku.Foundation.Web\Interation.Nunchaku.Foundation.Web.csproj">
+      <Project>{FED73B23-8B41-43EE-84CD-00D3CCB4676D}</Project>
+      <Name>Interation.Nunchaku.Foundation.Web</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repository\Interation.Nunchaku.Repository.IRepositoryProvider\Interation.Nunchaku.Repository.IRepositoryProvider.csproj">
+      <Project>{038E4EA1-B036-497D-912D-926835A79B1B}</Project>
+      <Name>Interation.Nunchaku.Repository.IRepositoryProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Repository\Interation.Nunchaku.Repository.RepositoryImplementation\Interation.Nunchaku.Repository.RepositoryImplementation.csproj">
+      <Project>{703FD96D-EB66-4C22-BA8D-71009649451C}</Project>
+      <Name>Interation.Nunchaku.Repository.RepositoryImplementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Service\Interation.Nunchaku.Service.IServiceProvider\Interation.Nunchaku.Service.IServiceProvider.csproj">
+      <Project>{740500A4-FEA9-42DA-B9D8-47CB155CA602}</Project>
+      <Name>Interation.Nunchaku.Service.IServiceProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Service\Interation.Nunchaku.Service.ServiceImplementation\Interation.Nunchaku.Service.ServiceImplementation.csproj">
+      <Project>{61EBFD46-08AA-4934-8D6D-BFE54674D261}</Project>
+      <Name>Interation.Nunchaku.Service.ServiceImplementation</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
