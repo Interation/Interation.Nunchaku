@@ -72,7 +72,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\Css\Global.css" />
+    <Content Include="Scripts\jquery.extension.js" />
+    <Content Include="Views\Home\Index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -80,24 +82,17 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
-    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\MicrosoftAjax.js" />
-    <Content Include="Scripts\MicrosoftAjax.debug.js" />
-    <Content Include="Scripts\MicrosoftMvcAjax.js" />
-    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
-    <Content Include="Scripts\MicrosoftMvcValidation.js" />
-    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Views\Shared\" />
+    <Folder Include="Scripts\Module\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\Interation.Nunchaku.Foundation.Web\Interation.Nunchaku.Foundation.Web.csproj">
+      <Project>{FED73B23-8B41-43EE-84CD-00D3CCB4676D}</Project>
+      <Name>Interation.Nunchaku.Foundation.Web</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\..\IOC\Interation.Nunchaku.IOC\Interation.Nunchaku.IOC.csproj">
       <Project>{17FAAB04-3C90-44EF-AD1B-F85108B4DAC2}</Project>
       <Name>Interation.Nunchaku.IOC</Name>
@@ -110,6 +105,9 @@
       <Project>{4CE272CE-937E-42EC-954D-253A30598BAC}</Project>
       <Name>Interation.Nunchaku.UI.Official.ViewModel</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Shared\Site.Master" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

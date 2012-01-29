@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <% Html.Css("~/content/css/global.css"); %>
+    <asp:ContentPlaceHolder ID="HeaderContent" runat="server" />
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="logo"></div>
+            <ul class="menu">
+                <li><a href="<%= Url.Action("index", "home") %>">首页</a></li>
+                <li><a href="<%= Url.Action("index", "news") %>">新闻</a></li>
+                <li><a href="<%= Url.Action("index", "photo") %>">图片</a></li>
+                <li><a href="<%= Url.Action("index", "video") %>">视频</a></li>
+                <li><a href="<%= Url.Action("index", "aboutus") %>">关于我们</a></li>
+            </ul>
+        </div>
+        <div class="main"></div>
+        <div class="footer"></div>
+    </div>
+
+    <div>
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <% Html.Javascript("~/scripts/jquery-1.4.1.min.js"); %>
+    <% Html.Javascript("~/scripts/jquery.extension.js"); %>
+    <asp:ContentPlaceHolder ID="ScriptContent" runat="server" />
+</body>
+</html>

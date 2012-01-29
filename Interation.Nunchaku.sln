@@ -1,14 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependence", "Dependence", "{4DC9CA37-BDD8-4A3C-BA15-B36E1FE6195B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency", "Dependency", "{4DC9CA37-BDD8-4A3C-BA15-B36E1FE6195B}"
 	ProjectSection(SolutionItems) = preProject
-		Dependence\ICSharpCode.SharpZipLib.dll = Dependence\ICSharpCode.SharpZipLib.dll
-		Dependence\log4net.dll = Dependence\log4net.dll
-		Dependence\Lucene.Net.dll = Dependence\Lucene.Net.dll
-		Dependence\Memcached.ClientLibrary.dll = Dependence\Memcached.ClientLibrary.dll
-		Dependence\Ninject.dll = Dependence\Ninject.dll
-		Dependence\nunit.framework.dll = Dependence\nunit.framework.dll
+		Dependency\ICSharpCode.SharpZipLib.dll = Dependency\ICSharpCode.SharpZipLib.dll
+		Dependency\log4net.dll = Dependency\log4net.dll
+		Dependency\Lucene.Net.dll = Dependency\Lucene.Net.dll
+		Dependency\Memcached.ClientLibrary.dll = Dependency\Memcached.ClientLibrary.dll
+		Dependency\Ninject.dll = Dependency\Ninject.dll
+		Dependency\nunit.framework.dll = Dependency\nunit.framework.dll
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{66DA0BD2-FCCC-4B5D-8F94-93858737033A}"
