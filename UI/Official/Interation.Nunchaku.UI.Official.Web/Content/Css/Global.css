@@ -1,3 +1,21 @@
-body{ background:#3f3f3f url(../image/gradientbackground.jpg) repeat-x; }
+body{ background:#1b1b19 url(../image/bg.jpg); font-family:Arial; font-size:12px; margin:0px; }
 
-div.page{ margin:0px auto; width:1000px; }
+.clear{ clear:both; font-size:0px; height:0px; overflow:hidden; }
+
+div.page{ margin:0px auto; width:1200px; }
+div.page div.header{ height:200px; width:100%; }
+div.page div.header div.logo{ background:#cccccc; float:left; font-size:20px; height:200px; line-height:200px; text-align:center; text-transform:uppercase; width:200px; }
+div.page div.header div.search{ background:#ffffff; float:right; height:30px; margin:150px 0px 0px 0px; }
+div.page div.header div.search input{ border:0px; float:left; font-family:Arial; font-size:12px; height:20px; line-height:20px; margin:0px; padding:5px; width:200px; }
+div.page div.header div.search a{ background:red; display:block; float:left; height:30px; width:30px; }
+div.page ul.menu{ border:0px; float:left; margin:0px; margin-top:25px; padding:0px; width:200px; }
+div.page ul.menu li{ border:0px; height:35px; list-style:none; margin:0px; padding:1px 0px 1px 0px; width:100%; }
+div.page ul.menu li a{ background:#212121; color:#626262; float:right; height:22px; line-height:13px; padding:6px; text-align:right; text-decoration:none; }
+div.page ul.menu li a:hover{ background:#2d2d2b; }
+div.page ul.menu li a.main{ background:#2d2d2b; color:#cccccc; }
+div.page ul.menu li a.main:hover{ color:#7f7f7f; }
+div.page ul.menu li a span{ font-size:10px; line-height:11px; }
+div.page div.main{ float:left; width:1000px; }
+div.page div.footer{ border-top:solid #ff0000 1px; height:100px; margin-top:20px; width:100%; }
+div.page div.footer div.copyright{ color:#cccccc; float:right; font-size:9px; line-height:22px; }
+

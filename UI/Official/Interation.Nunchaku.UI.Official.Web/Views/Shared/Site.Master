@@ -11,32 +11,41 @@
 <body>
     <div class="page">
         <div class="header">
-            <ul class="menu">
-                <li><a href="<%= Url.Action("index", "home") %>">首页</a></li>
-                <li><a href="<%= Url.Action("index", "news") %>">新闻</a></li>
-                <li><a href="<%= Url.Action("index", "photo") %>">图片</a></li>
-                <li><a href="<%= Url.Action("index", "video") %>">视频</a></li>
-                <li><a href="<%= Url.Action("index", "aboutus") %>">关于我们</a></li>
-            </ul>
-            <div class="logo"></div>
-            <ul class="menu">
-                <li><a href="<%= Url.Action("index", "home") %>">首页</a></li>
-                <li><a href="<%= Url.Action("index", "news") %>">新闻</a></li>
-                <li><a href="<%= Url.Action("index", "photo") %>">图片</a></li>
-                <li><a href="<%= Url.Action("index", "video") %>">视频</a></li>
-                <li><a href="<%= Url.Action("index", "aboutus") %>">关于我们</a></li>
-            </ul>
+            <div class="logo">Logo</div>
+            <div class="search">
+                <form action="#">
+                    <input autocomplete="off" name="Keywords" />
+                    <a href="javascript:void(0);"></a>
+                </form>
+            </div>
         </div>
-        <div class="main"></div>
-        <div class="footer"></div>
-    </div>
-
-    <div>
-        <asp:ContentPlaceHolder ID="MainContent" runat="server">
-        </asp:ContentPlaceHolder>
+        <ul class="menu">
+            <li><a class="main" href="<%= Url.Action("index", "home") %>">首页<br /><span>Home</span></a></li>
+            <li><a class="main" href="javascript:void(0);">新闻动态<br /><span>News</span></a></li>
+            <li><a href="javascript:void(0);">国内新闻<br /><span>Civil News</span></a></li>
+            <li><a href="javascript:void(0);">通知公告<br /><span>Announcement</span></a></li>
+            <li><a class="main" href="javascript:void(0);">精彩图片<br /><span>Photo Gallery</span></a></li>
+            <li><a href="javascript:void(0);">精彩瞬间<br /><span>Moments</span></a></li>
+            <li><a href="javascript:void(0);">证书<br /><span>Awards</span></a></li>
+            <li><a class="main" href="javascript:void(0);">精彩视频<br /><span>Wonderful Video</span></a></li>
+            <li><a href="javascript:void(0);">教练视频<br /><span>Coach Video</span></a></li>
+            <li><a href="javascript:void(0);">表演视频<br /><span>Performance Video</span></a></li>
+            <li><a class="main" href="javascript:void(0);">关于我们<br /><span>About Us</span></a></li>
+            <li><a href="javascript:void(0);">装备<br /><span>Equipment</span></a></li>
+            <li><a href="javascript:void(0);">场馆<br /><span>Venues</span></a></li>
+        </ul>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <div class="copyright">Copyright © 2012, All Rights Reserved.</div>
+        </div>
     </div>
     <% Html.Javascript("~/scripts/jquery-1.4.1.min.js"); %>
     <% Html.Javascript("~/scripts/jquery.extension.js"); %>
+    <% Html.Javascript("~/scripts/module/site.master.js"); %>
+    <script type="text/javascript">$(document).ready(function () { master.ready(); });</script>
     <asp:ContentPlaceHolder ID="ScriptContent" runat="server" />
 </body>
 </html>

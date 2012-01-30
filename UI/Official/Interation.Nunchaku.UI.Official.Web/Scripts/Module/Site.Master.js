@@ -1,0 +1,7 @@
+﻿var master =
+{
+    ready: function ()
+    {
+
+    }
+};

@@ -1,0 +1,6 @@
+﻿var index =
+{
+    ready: function ()
+    {
+    }
+};
