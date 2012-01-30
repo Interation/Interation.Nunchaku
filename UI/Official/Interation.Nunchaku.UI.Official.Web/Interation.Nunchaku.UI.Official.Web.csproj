@@ -71,6 +71,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Image\GradientBackground.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Css\Global.css" />
     <Content Include="Scripts\jquery.extension.js" />
